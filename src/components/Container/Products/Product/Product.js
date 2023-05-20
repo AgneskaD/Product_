@@ -37,7 +37,7 @@ export const Product = ({ colors, sizes, name, title, basePrice }) => {
     <article className={styles.product}>
       <ProductImage name={name} title={title} currentColor={currentColor} />
       <div>
-        <ProductTitle title={title} getPrice={getPrice} />
+      <ProductTitle title={title} getPrice={getPrice} />
         <ProductForm
           sizes={sizes}
           colors={colors}
