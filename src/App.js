@@ -1,8 +1,8 @@
-import Products from './components/Products/Products';
-import Header from './components/Header/Header';
-import Container from './components/Container/Container';
+iimport { Products } from "./components/Container/Products/Products";
+import { Header } from "./components/Container/Header/Header";
+import { Container } from "./components/Container/Container";
 
-const App = () => {
+export const App = () => {
 
   return (
     <Container>
@@ -10,6 +10,4 @@ const App = () => {
       <Products />
     </Container>
   );
-}
-
-export default App;
+};
